@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import "../pages/About.css"
+import "./About.css";
+import profilePicture from "/Users/bacca/github-classroom/2024-IBM-Accelerate-SW-Track/to-do-list-week-1-BillHuil/src/assets/profile_me.jpg";
 
 export default class About extends Component {
   render() {
@@ -8,7 +9,7 @@ export default class About extends Component {
         <div className="split left">
           <div className="centered">
             <img className="profile_image"
-            src="/src/assets/<profile_image.jpg>"
+            src={profilePicture}
             alt="Profile Pic">
             </img>
           </div>
