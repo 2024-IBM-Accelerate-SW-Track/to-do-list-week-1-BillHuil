@@ -26,7 +26,9 @@
 }
 
 .name_title {
-  font-size: 48px;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: inherit;
   color: black;
   text-align: left;
   padding-bottom: 20px;
@@ -37,6 +39,6 @@
 }
 
 .profile_image {
-  width: 500px;
-  height: auto;
+  width: 300px;
+  height: 300px;
 }
